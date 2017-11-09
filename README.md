@@ -8,3 +8,6 @@ In order to monitor a beacon, you have to specify its UUID, name, major and mino
 To do that, open AppCoordinator.swift in Xcode and find "let item = BeaconItem(" code in
 setUp() function and change parameters of item to match your iBeacon device.
 Build and run on your device.
+
+App also has a custom animated view that is created on layers for better performance.
+You can see video of working app by this link: https://youtu.be/IUuCUD3mFKI
